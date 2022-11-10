@@ -209,5 +209,11 @@ but kept the 3 project files outside the RajvirsBookStore folders
 
 2022-11-10  1304 ----------------
 - Deleted the Old Repository and solved the error of Duplication....
-- By the first step by Unchecking the "Save the project and solution file in the same directory"
+- In the first step by Unchecking the "Save the project and solution file in the same directory" box
 Doing the whole Part - 1 ...
+
+2022-11-10   0605 ----------------
+- Started with the Utility class project as per the pptx.
+- move the Homecontrollers.cs file to Area > View > home and delete the "Data" and "Models" folder...
+- Save the content and run the application
+- After running the web application update the git repo... 0608
