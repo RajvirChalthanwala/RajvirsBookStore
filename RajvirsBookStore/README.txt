@@ -265,4 +265,23 @@ when error occurs change the default project to "RajvirBooks.DataAccess" to remo
 - Modify it as per the requirement and add the public int and public string field in the same class
 - add the limitations and add "[Key]" in the top of the public static file...
 - save the content and update the repo....
-09:26 -----------------
+09:26 
+
+09:28 -----------------
+- add the migration again for the new Category file.
+open the package console write : "add-migration AddCategoryToDb" and enter the application...
+	- Build Start
+	- Build Succeeded
+- again open the migration file of CategoryToDb file and look it will be empty...
+- save the content and move forward.
+- Edit the ApplicationDbContext.cs file
+	- add the "using RajvirsBooks.Models;" to the top of the file...
+	- Another add "public DbSet<Category> Categories { get; set; }" in that same file...
+- save the content and then again in package console "add-migration AddCategoryToDb" !!!
+- Update the database !!!
+	- Build Start
+	- Build Succeeded
+	- Done
+- Commit all to the github repository till End of Part 2.1
+09:41
+
