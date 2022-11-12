@@ -183,7 +183,7 @@ finally solved this error by changing the name of the class library by "RajvirsB
 - succeeded and save the content.
 - upload to git... 1:05PM
 
-// -----------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------- //
 
 
 2022-11-09  1330  ----------------------------------
@@ -284,4 +284,18 @@ open the package console write : "add-migration AddCategoryToDb" and enter the a
 	- Done
 - Commit all to the github repository till End of Part 2.1
 09:41
+
+2022-11-12  05:40 -----------------
+- open Visual Studio code 2019 Community version...
+- Open the colned repository which was saved in the local folder and open the sln file.
+- build the project and save it to continue Part 2.2... 
+05:46
+
+05:53
+- Added "Repository" folder in the .DataAccess class project...
+- Added another implementation folder named "IRepository"
+- Include one "interface" file in that folder named: "IRepository.cs"
+- modify it as per pptx
+- save the code and update the git commits.... 
+05:58
 
