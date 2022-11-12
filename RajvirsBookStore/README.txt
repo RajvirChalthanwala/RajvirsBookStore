@@ -313,3 +313,10 @@ open the package console write : "add-migration AddCategoryToDb" and enter the a
 - modify the CategoryRepository.cs file as shown in the pptx...
 - it's time to coomit 5 chnages in the repo...
 06:35
+
+06:40 -----------------
+- Modify the code in the ICategoryRepository.cs file as shown and change the namespace...
+- build the application if:
+	- 4 succeeded 0 failed 0 up-to-date
+	- update the git repository with the following code.
+06:59
