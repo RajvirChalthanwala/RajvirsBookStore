@@ -368,3 +368,13 @@ Had a Dinner break in between !!!!
 - save the code, update the github repo...
 23:52
 
+00:05 -----------------
+- open Areas > Admin > View 
+- create one folder "Category".
+- add _viewImports.cshtml and _viewStart.cshtml files in Areas > Admin > View
+- create one razor view page in the category file and insert the html code in it.
+- code provided by the professor should be pasted in the gven file IndexView.cshtml
+- save the code...
+- Rebuild the application and Run the Project !
+- After successful project update the git repository
+00:13
