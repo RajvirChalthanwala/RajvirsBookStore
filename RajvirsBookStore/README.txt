@@ -320,3 +320,19 @@ open the package console write : "add-migration AddCategoryToDb" and enter the a
 	- 4 succeeded 0 failed 0 up-to-date
 	- update the git repository with the following code.
 06:59
+
+07:11 -----------------
+- Create the ISP_Call.cs interface file in the .DataAccess class project
+- modifyit according to the pptx...
+- continue the coding and add the new class file in Repository > "SP_Call.cs"...
+07:15
+
+Took a Break !!! :)
+
+08:10 -----------------
+- After adding the SP_Call.cs file... 
+- modify it using the provided file reference...
+- almost added 15 lines and then finally commit it to git repo...
+- save the code....
+08:12
+
