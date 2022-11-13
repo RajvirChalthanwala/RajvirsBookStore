@@ -378,3 +378,10 @@ Had a Dinner break in between !!!!
 - Rebuild the application and Run the Project !
 - After successful project update the git repository
 00:13
+
+00:16 -----------------
+- open Views > Shared > _Layout.cshtml
+- add one extra link for "Category" in the Content Management dropdown list...
+- after adding it rebuild the code and run the application to check the navigation bar...
+- commit till navigation
+00:19
