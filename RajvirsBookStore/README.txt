@@ -186,7 +186,7 @@ finally solved this error by changing the name of the class library by "RajvirsB
 // ----------------------------------------------------------------------------------------------------- //
 
 
-2022-11-09  1330  ----------------------------------
+2022-11-09  13:30  ----------------------------------
 - Changed the old reposiotry name to "RajvirsBookStore_OLD"
 - copied the README content to my local PC and starting to make new Web application
 - there were lots of duplications error for the newley creaed project 
@@ -196,34 +196,33 @@ because of the path.
 - created the project at    1320
 - created the README.txt file
 - creating new git repo....
-commit all to github repo... 1346
+commit all to github repo... 
+13:46
 
------------------------------------------------------
-
-1443 
+14:43 
 - Right after one hour a completed the full steps again
 but kept the 3 project files outside the RajvirsBookStore folders
 - as there are no such duplication error now i can run my application
 - save the content and update all the commits to github repository...
-1445
+14:45
 
-2022-11-10  1304 ----------------
+2022-11-10  13:04 ----------------
 - Deleted the Old Repository and solved the error of Duplication....
 - In the first step by Unchecking the "Save the project and solution file in the same directory" box
 Doing the whole Part - 1 ...
 
-2022-11-10   0605 ----------------
+18:05 ----------------
 - Started with the Utility class project as per the pptx.
 - move the Homecontrollers.cs file to Area > View > home and delete the "Data" and "Models" folder...
 - Save the content and run the application
 - After running the web application update the git repo... 0608
 
-0611 ----------------
+18:11 ----------------
 - Add Area Admin in the Areas folder.
 - Delete the "Data" and "Models" folder from it...
 - View the content properly and delete the Controllers folder from the main project !!!
 - Update the github repository and save the content...
-0612
+18:12
 
 ---------------------------------------- [END OF PART-1] ----------------------------------------
 
@@ -285,58 +284,58 @@ open the package console write : "add-migration AddCategoryToDb" and enter the a
 - Commit all to the github repository till End of Part 2.1
 09:41
 
-2022-11-12  05:40 -----------------
+2022-11-12  17:40 -----------------
 - open Visual Studio code 2019 Community version...
 - Open the colned repository which was saved in the local folder and open the sln file.
 - build the project and save it to continue Part 2.2... 
-05:46
+17:46
 
-05:53 -----------------
+17:53 -----------------
 - Added "Repository" folder in the .DataAccess class project...
 - Added another implementation folder named "IRepository"
 - Include one "interface" file in that folder named: "IRepository.cs"
 - modify it as per pptx
 - save the code and update the git commits.... 
-05:58
+17:58
 
-06:07 -----------------
+18:07 -----------------
 - further add the given code in the same interface file....
 - add comments too for the further assistance
 - save the code as clean the project tobe safe...
-06:09
+18:09
 
-06:21 -----------------
+18:21 -----------------
 - add the implements class in the Repository > Repository.cs file...
 - add the content in that file using given code by professor...
 - save the content for the further commit...
 - Add two new files in the same Repository folder named: "ICategoryRepository.cs" interface file and "CategoryRepository.cs" class file
 - modify the CategoryRepository.cs file as shown in the pptx...
 - it's time to coomit 5 chnages in the repo...
-06:35
+18:35
 
-06:40 -----------------
+18:40 -----------------
 - Modify the code in the ICategoryRepository.cs file as shown and change the namespace...
 - build the application if:
 	- 4 succeeded 0 failed 0 up-to-date
 	- update the git repository with the following code.
-06:59
+18:59
 
-07:11 -----------------
+19:11 -----------------
 - Create the ISP_Call.cs interface file in the .DataAccess class project
 - modifyit according to the pptx...
 - continue the coding and add the new class file in Repository > "SP_Call.cs"...
-07:15
+19:15
 
 Took a Break !!! :)
 
-08:10 -----------------
+20:10 -----------------
 - After adding the SP_Call.cs file... 
 - modify it using the provided file reference...
 - almost added 15 lines and then finally commit it to git repo...
 - save the code....
-08:12
+20:12
 
-08:48 -----------------
+20:48 -----------------
 - error occured :
 "Error	CS0053	Inconsistent accessibility: property type 'ISP_Call' is less accessible than property 'UnitOfWork.SP_Call'	RajvirsBooks.DataAccess	C:\Users\rajvi\Source\Repos\RajvirChalthanwala\RajvirsBookStore\RajvirsBooks.DataAccess\Repository\UnitOfWork.cs"
 - trying to solve this error !!!! :(
@@ -344,9 +343,9 @@ Took a Break !!! :)
 			Error solved whuuuuu.............
 			Add "public" to all the interfaces and classes
 - after solving the error commit to github...
-08:57
+20:57
 
-08:58 -----------------
+21:58 -----------------
 - open startup.cs file
 - add code in line 36 about the UnitOfWork and IUnitOfWork
 - remove the addRazorPages line and save the code...
@@ -354,4 +353,18 @@ Took a Break !!! :)
 - solved using the Alt + Ent
 using the suggestion solved the error...
 - Commit the code to Github repo....
-09:04
+21:04
+
+Had a Dinner break in between !!!!
+
+23:21 -----------------
+- To start part 2.3 Category Crud pages...
+- open the visual studio code 2019 community again and close all the current tabs open except README.txt
+- continue working on the 3rd part of Assignmnet Part - 2.
+- open the "RajvirsBookStore" main project
+- Open Area > Admin > Controllers
+	- create a new controller name : "CategoryController.cs"
+	- add the using statement on the top and modify the rest of the code...
+- save the code, update the github repo...
+23:52
+
