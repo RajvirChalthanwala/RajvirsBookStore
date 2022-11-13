@@ -336,3 +336,12 @@ Took a Break !!! :)
 - save the code....
 08:12
 
+08:48 -----------------
+- error occured :
+"Error	CS0053	Inconsistent accessibility: property type 'ISP_Call' is less accessible than property 'UnitOfWork.SP_Call'	RajvirsBooks.DataAccess	C:\Users\rajvi\Source\Repos\RajvirChalthanwala\RajvirsBookStore\RajvirsBooks.DataAccess\Repository\UnitOfWork.cs"
+- trying to solve this error !!!! :(
+
+			Error solved whuuuuu.............
+			Add "public" to all the interfaces and classes
+- after solving the error commit to github...
+08:57
