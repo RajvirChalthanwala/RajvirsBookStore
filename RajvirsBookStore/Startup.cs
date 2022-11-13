@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RajvirsBooks.DataAccess.Repository.IRepository;
 using RajvirsBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -32,8 +33,8 @@ namespace RajvirsBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() // options => options.SignIn.RequireConfirmedAccount = true  // Use it for the Class work only...
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

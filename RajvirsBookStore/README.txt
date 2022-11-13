@@ -345,3 +345,13 @@ Took a Break !!! :)
 			Add "public" to all the interfaces and classes
 - after solving the error commit to github...
 08:57
+
+08:58 -----------------
+- open startup.cs file
+- add code in line 36 about the UnitOfWork and IUnitOfWork
+- remove the addRazorPages line and save the code...
+- one error occured about using the database connectivity
+- solved using the Alt + Ent
+using the suggestion solved the error...
+- Commit the code to Github repo....
+09:04
