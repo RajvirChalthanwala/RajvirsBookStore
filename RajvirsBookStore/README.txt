@@ -405,3 +405,10 @@ add the code provided in the black board... Re-Run the application ?
 - open the visual studio code 2019 community
 - open the clonned project
 - continue with the pptx 2.3
+
+- Error occured when running the Create Category page 
+- Error Solved 20:17
+Actualy the Category database table was not updated and it was showing the error...
+- once I updated the database table it was successfully executed...  :)
+- commit it to the repo erro solved...
+20:19
