@@ -412,3 +412,13 @@ Actualy the Category database table was not updated and it was showing the error
 - once I updated the database table it was successfully executed...  :)
 - commit it to the repo erro solved...
 20:19
+
+20:21 -----------------
+- add the @model razor in the text file in Views > Shared > _EditAndBackToListButton.cshtml
+- add the js script and check the validation of the project
+- open the category.js file for the delete functionality...
+- modify the given code in the Delete URL in Category.js file !!!
+after writing the code, run the application and commit all saying "End Of Part: 2"
+20:36
+
+---------------------------------------- [END OF PART-2] ----------------------------------------
