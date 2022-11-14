@@ -400,3 +400,8 @@ add the code provided in the black board... Re-Run the application ?
 		It took me much longer time for the error solving ?
 - rest all completed commit till now. ;(
 01:03
+
+2022-11-13  19:02 -----------------
+- open the visual studio code 2019 community
+- open the clonned project
+- continue with the pptx 2.3
