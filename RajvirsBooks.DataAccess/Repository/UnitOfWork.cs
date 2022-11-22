@@ -21,6 +21,10 @@ namespace RajvirsBooks.DataAccess.Repository.IRepository
 
         public ISP_Call SP_Call { get; private set; }
 
+        public ICoverTypeRepository CoverType { get; private set; }
+
+        public ICoverTypeRepository CoverTypeRepository => throw new NotImplementedException();
+
         public void Dispose()
         {
             _db.Dispose();
