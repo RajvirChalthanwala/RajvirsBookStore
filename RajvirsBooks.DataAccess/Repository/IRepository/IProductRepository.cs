@@ -5,8 +5,8 @@ using System.Text;
 
 namespace RajvirsBooks.DataAccess.Repository.IRepository
 {
-    public interface IProductRepository : IRepository<CoverType>
+    public interface IProductRepository : IRepository<Product>
     {
-        void Update(CoverType coverType);
+        void Update(Product product);
     }
 }

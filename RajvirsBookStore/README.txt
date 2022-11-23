@@ -519,3 +519,13 @@ razor view and same way creating Upsert.cshtml
 - 3 errors :( of namespace Mvc does not exists which I don't know how to solve...
 - update the git repository to clear all pending commits !
 11:09
+
+11:22 -----------------
+- Create one product folder in Area > admin > Views name "Product"
+- add same two razor view pages like Index and Upsert in the product folder and alter the code as per the pptx requirement
+- update the wwwroot > js >product.js file and add the code and change the urls mentioned in it...
+- modify the _layout.cshtml to add new link for Product in the navbar...
+- re-build the code and run the application !!!!
+- successfully ran, Build succeeded..
+- commit till end of section 2
+11:36
