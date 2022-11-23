@@ -483,3 +483,13 @@ after editing the code save the content and update the GIT repo....
 - Taking another break will continue after some time !!!!
 - As of now commiting the halfwork with errors
 20:26
+
+2022-11-22  23:33 -----------------
+- Again continuing the code with solving the error by changing the exact code again and created the Index.cshtml 
+razor view and same way creating Upsert.cshtml
+- Index file is edited !!!
+- creating the upsert.cshtml file in CoverType folder!
+- creaste coverType.js file in the wwwroot > js folder and edit the code given perviously...
+- and added the delete button and check the application after running the whole code !!!!
+- update the git repo...
+23:52

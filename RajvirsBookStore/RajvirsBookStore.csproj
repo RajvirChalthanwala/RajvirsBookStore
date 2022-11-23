@@ -23,8 +23,4 @@
     <ProjectReference Include="..\RajvirsBooks.Utility\RajvirsBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Views\CoverType\" />
-  </ItemGroup>
-
 </Project>

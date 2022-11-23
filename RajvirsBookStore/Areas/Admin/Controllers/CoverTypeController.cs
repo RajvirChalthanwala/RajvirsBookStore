@@ -31,7 +31,7 @@ namespace RajvirsBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)        // action method for upsert
         {
-            CoverType coverType = new CoverType();     //using pujasBooks.Model
+            CoverType coverType = new CoverType();
 
             if (id == null)
             {

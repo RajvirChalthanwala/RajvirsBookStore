@@ -15,6 +15,7 @@ namespace RajvirsBooks.DataAccess.Repository.IRepository
             _db = db;
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db);
+            CoverType = new CoverTypeRepository(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
@@ -22,8 +23,6 @@ namespace RajvirsBooks.DataAccess.Repository.IRepository
         public ISP_Call SP_Call { get; private set; }
 
         public ICoverTypeRepository CoverType { get; private set; }
-
-        public ICoverTypeRepository CoverTypeRepository => throw new NotImplementedException();
 
         public void Dispose()
         {
