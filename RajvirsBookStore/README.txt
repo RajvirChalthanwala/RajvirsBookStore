@@ -459,3 +459,27 @@ started the same steps as category CRUD pages and created the CoverType CRUD pag
 make changes to the assembley references in the same file and add required statements...
 after editing the code save the content and update the GIT repo....
 18:18
+
+18:23 -----------------
+- Push the Covertype to database and create the migration
+- write "add-migration AddCoverTypeToDb" in the package console in .Dataaccess project and enter
+- after creating the migration its time to update the database and check that the table is created or not ?
+- the new migration file "20221122232234_AddCoverTypeToDb.cs" got created...
+- Check the View > SQL object explorer > CoverType.cs table
+- save it and move forward...
+18:26
+
+20:16 -----------------
+- took a break in between and now continuing with the same !!!!
+- tried solving the previous errors of refrencing
+- created "CoverTypeContoller" in Area > Admin > Contollers folder same as CategoryController to create the CRUD pages 
+- Now going forward to create the same Index Razor View page for the Index view and the Upsert view...
+- create CoverType folder in the Areas > Admin > views
+- create two razor view pages "Index.cshtml" and "Upsert.cshtml"
+- alter the code in both the files same as the pervious CRUD pages...
+- save all the content with all 6 errors for now :(
+- then update the git repository....
+- I tried making the Razor View page but failed as there was 6 errors so its build failed...
+- Taking another break will continue after some time !!!!
+- As of now commiting the halfwork with errors
+20:26
