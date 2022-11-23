@@ -510,3 +510,12 @@ razor view and same way creating Upsert.cshtml
 - created the Product in UnitOFWork and IUnitOfWork with errors 
 - commiting till this step and errors 10...
 01:47
+
+2022-11-23  11:04 -----------------
+- Open the code again to continue with Assignment_3 section 2
+- create the Product Controller and other following files in order to create CRUD pages
+- update the code given in the Controller page and create one class file "ProductVM.cs" in the ViewsModel folder in .Model
+- install one package of "Microsoft.AspNetCore.Mvc.ViewFeature" to all four projects and add the extra using statement in the files mentioned
+- 3 errors :( of namespace Mvc does not exists which I don't know how to solve...
+- update the git repository to clear all pending commits !
+11:09
