@@ -10,7 +10,7 @@ using RajvirsBookStore.DataAccess.Data;
 namespace RajvirsBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221123053201_addProductToDb")]
+    [Migration("20221124193026_addProductToDb")]
     partial class addProductToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

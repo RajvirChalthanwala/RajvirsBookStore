@@ -529,3 +529,13 @@ razor view and same way creating Upsert.cshtml
 - successfully ran, Build succeeded..
 - commit till end of section 2
 11:36
+
+2022-11-24  14:07 -----------------
+- To start section 3 for Assignment 2 open Visual Studio 2019 community version
+- clean the web application once and start with the ppt...\
+- create one upser.cshtml same for the Product file and edit the code as per the ppt.
+- update the link by creating account in TINY.cloud and copy your Unique API key...
+- build the application and check the create new product page...
+- in my case exception is created and i cannot see the create new product page !!!!
+- commit till this error !!!!
+14:44
