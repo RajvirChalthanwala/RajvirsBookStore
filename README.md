@@ -22,3 +22,5 @@ I created the README.txt very detailed and am doing it for the 1st time :)
 
 "2022/11/17  ->  Starting the 3rd phase of Assignment 2 and clone it properly from the GIHUB"
 "2022/11/17  ->  Started Part 2.3.1 about creating CoverType.cs same as Category.cs"
+"2022/11/22  ->  Started Part 2.3.2 about creating Product.cs same as CoverType.cs"
+"2022/11/23  ->  Started Part 2.3.3 about creating "
