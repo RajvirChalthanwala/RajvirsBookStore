@@ -539,3 +539,12 @@ razor view and same way creating Upsert.cshtml
 - in my case exception is created and i cannot see the create new product page !!!!
 - commit till this error !!!!
 14:44
+
+17:49 -----------------
+- Again continue the code and update the ProductCrontroller.cs file and un-comment the code 
+- update the validation code for product fields...
+- all done foe Assignment 2 [Section-3] !!!
+- update the github repo...
+17:52
+
+---------------------------------------- [END OF PART-3] ----------------------------------------

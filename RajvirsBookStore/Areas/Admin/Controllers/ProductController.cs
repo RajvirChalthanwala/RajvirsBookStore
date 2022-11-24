@@ -29,7 +29,7 @@ namespace RajvirsBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        /*public IActionResult Upsert(int? id)
+        public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new ProductVM()
             {
@@ -58,7 +58,29 @@ namespace RajvirsBookStore.Areas.Admin.Controllers
                 return NotFound();
             }
             return View(productVM);
-        }*/
+        }
+
+        //use HTTP POST to define the post-action method
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)    //checks all validations in the model 
+            {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));   // to see all the categories
+            }
+            return View(product);
+        }
 
 
         // API calls here
