@@ -558,4 +558,6 @@ razor view and same way creating Upsert.cshtml
 - changed the code of "productcontroller.cs", "product.js", "Product > index.cshtml, upsert.cshtml", "Produt.cs" files to 
 resolve the error of exception...
 - update the github repo...
-12:33 -----------------
+12:33 
+
+---------------------------------------- [END OF PART-4] ----------------------------------------
