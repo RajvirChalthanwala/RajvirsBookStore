@@ -548,3 +548,14 @@ razor view and same way creating Upsert.cshtml
 17:52
 
 ---------------------------------------- [END OF PART-3] ----------------------------------------
+
+2022-11-30  11:44 -----------------
+- open the github repo in your local folder, clean the web app and run the application to start further with part 4
+- to continue with the part 4 visit the provided repo link on blackboard and check the product code in that repo and compare it 
+- to make the expected output...
+- my product code is completed but with an exception of sql handler, so in order to solve that error lets start with the section 3 again...
+- open repo and compare all the file related to "product"
+- changed the code of "productcontroller.cs", "product.js", "Product > index.cshtml, upsert.cshtml", "Produt.cs" files to 
+resolve the error of exception...
+- update the github repo...
+12:33 -----------------
