@@ -31,5 +31,6 @@ namespace RajvirsBooks.Models
         public int CoverTypeId { get; set; }
         [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
+
     }
 }
