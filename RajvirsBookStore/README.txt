@@ -570,8 +570,15 @@ then open Areas > Views > Product and update Upsert.cshtml
  - edit the code in the same file and then repeat the procedure.
  - open the customer > controllerss > HomeControllers.cs and add the following code for the price change
  - Edit Views > Home > Index.cshtml 
- - add it with the code for the BulkyBooks and runt he application again !
+ - add it with the code for the BulkyBooks and run the application again !
  after all this commit the code to github repo...
  12:32
+
+ 12:33 -----------------
+- change the code up for the buttons for edit and delete edit the same product for java script file
+- open wwwroots > js > product.js 
+and alter the whole code from the given github repo...
+- after committing all this code, save the application and update the github repo...
+12:35
 
 ---------------------------------------- [END OF PART-4] ----------------------------------------
