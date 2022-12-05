@@ -560,4 +560,18 @@ resolve the error of exception...
 - update the github repo...
 12:33 
 
+2022-12-04  11:51 -----------------
+- open the visual studio code 2019 community version run the web app
+- alter the code in every product based file in the web application to display the products in the home page !!!
+- firstly alter the code in Product.cs and add migration
+- add-migration "AddPriceToProductDb"
+ and then update the database....
+then open Areas > Views > Product and update Upsert.cshtml
+ - edit the code in the same file and then repeat the procedure.
+ - open the customer > controllerss > HomeControllers.cs and add the following code for the price change
+ - Edit Views > Home > Index.cshtml 
+ - add it with the code for the BulkyBooks and runt he application again !
+ after all this commit the code to github repo...
+ 12:32
+
 ---------------------------------------- [END OF PART-4] ----------------------------------------
