@@ -582,3 +582,10 @@ and alter the whole code from the given github repo...
 12:35
 
 ---------------------------------------- [END OF PART-4] ----------------------------------------
+
+2022-12-09  04:15 -----------------
+- open the github repo in your local folder, clean the web app and run the application to start further with Azure deployment
+
+- try to do Azure deployment, but published failed.
+- commit all changes to GitHub
+04:35 
