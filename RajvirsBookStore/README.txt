@@ -564,7 +564,7 @@ resolve the error of exception...
 - open the visual studio code 2019 community version run the web app
 - alter the code in every product based file in the web application to display the products in the home page !!!
 - firstly alter the code in Product.cs and add migration
-- add-migration "AddPriceToProductDb"
+- add-migration "AddPriceToProductDb"  "20221205050713_AddPriceToProductDb.cs"
  and then update the database....
 then open Areas > Views > Product and update Upsert.cshtml
  - edit the code in the same file and then repeat the procedure.
